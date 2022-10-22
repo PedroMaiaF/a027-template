@@ -4,16 +4,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CSS - prática guiada 3</title>
+  <title>Exercício fixação - DOM parte 1</title>
   <script src="script.js" defer></script>
 </head>
 
 <body>
   <p id="paragrafo">Olá!</p>
   <label for="texto">Texto:</label>
-  <input id="texto" name="texto" type="text" />
+  <input id="texto" name="texto" type="text" onkeydown = "imprimirTextoDigitado()"/>
   <br/>
-  <button onclick=""></button>
+  <!-- Primeiro modelo 
+  <button onclick="printarInput(), mostraInput()">Clique aqui(adicionado para o exc)</button>
+-->
+  <!-- Modelo do Murilo -->
+  <button onclick="mudarElementoP()">Clique aqui(adicionado para o exc)</button>
 </body>
 
 </html>
